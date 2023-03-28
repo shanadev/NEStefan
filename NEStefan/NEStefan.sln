@@ -1,0 +1,31 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 16
+VisualStudioVersion = 25.0.1700.0
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "NEStefan", "NEStefan.csproj", "{34521CA7-120D-4674-8E19-8945EAFE3F26}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "GameEngine", "..\GameEngine\GameEngine.csproj", "{CDC326EB-D176-4726-B6FF-E1453FD0D1D2}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{34521CA7-120D-4674-8E19-8945EAFE3F26}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{34521CA7-120D-4674-8E19-8945EAFE3F26}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{34521CA7-120D-4674-8E19-8945EAFE3F26}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{34521CA7-120D-4674-8E19-8945EAFE3F26}.Release|Any CPU.Build.0 = Release|Any CPU
+		{CDC326EB-D176-4726-B6FF-E1453FD0D1D2}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{CDC326EB-D176-4726-B6FF-E1453FD0D1D2}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{CDC326EB-D176-4726-B6FF-E1453FD0D1D2}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{CDC326EB-D176-4726-B6FF-E1453FD0D1D2}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {B09723A9-7FAC-454F-A0C8-E2D73B75A602}
+	EndGlobalSection
+EndGlobal
