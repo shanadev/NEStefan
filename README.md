@@ -11,7 +11,7 @@ I'm on a Mac using Visual Studio 2022 - I'm using C# dotnet 6. For graphics, I'm
 
 I have a "Display Engine" project that is sort of javidx's Pixel Game Engine, or it does the task. It will handle game engine tasks, graphics and sound, and provide a way for the NES to do those things. I would like to separate that out to its own project in the future.
 
-##Updates
+## Updates
 * CPU Done and tested (legal codes only)
 * PPU Done
 * Mapper 000 games are now playable, sprites and sprite zero detection added
@@ -28,7 +28,7 @@ I have a "Display Engine" project that is sort of javidx's Pixel Game Engine, or
 * 4 channels of sound working
 * GUI update, separate windows being managed now
 
-##Next items
+## Next items
 * Regain debugging ability - work on a debugging window perhaps to see RAM and watch code
 * Illegal Op Codes
 * Games/Mappers I want to target
@@ -39,7 +39,7 @@ I have a "Display Engine" project that is sort of javidx's Pixel Game Engine, or
 * Mapper 007 - Battletoads, Wizards and Warriors 1-3, Marble Madness, Solar Jetman, RC ProAm,
 * Mapper 009 - Mike Tyson!
 
-##Issues
+## Issues
 * Noticing edge of screen artifacts that probably should not be there.
 * Mapper 001 REWITE not working, still want to rewrite so I fully understand
 * Not passing all tests
