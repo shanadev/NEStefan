@@ -7,7 +7,7 @@ My goal here is to niavely follow javidx's videos and make what he made. Then I'
 
 This project started as SteveNES and now I've refactored a bit and called it NEStefan.
 
-I'm on a Mac using Visual Studio 2022 - I'm using C# dotnet 6. For graphics, I'm using the SDL library with the C# bindings provided.
+I'm on a Mac using Visual Studio - writing in C#. For graphics, I'm using the SDL library with the C# bindings provided.
 
 I have a "Display Engine" project that is sort of javidx's Pixel Game Engine, or it does the task. It will handle game engine tasks, graphics and sound, and provide a way for the NES to do those things. I would like to separate that out to its own project in the future.
 
@@ -35,9 +35,11 @@ I have a "Display Engine" project that is sort of javidx's Pixel Game Engine, or
 * Metalstorm (mapper 4)
 * Ninja Gaiden 1-3 (mappers 1 and 4)
 * Star Tropics (mapper 4)
-* Mapper 005 - Casvan III
+* Mapper 005 - Casvan III -- Including new sound
 * Mapper 007 - Battletoads, Wizards and Warriors 1-3, Marble Madness, Solar Jetman, RC ProAm,
 * Mapper 009 - Mike Tyson!
+* 5th Channel Sound
+* Smooth sound by paying attention to phase
 
 ## Issues
 * Noticing edge of screen artifacts that probably should not be there.
@@ -50,6 +52,7 @@ I have a "Display Engine" project that is sort of javidx's Pixel Game Engine, or
 * Guardian Legend - GUI item on left side of screen is wonky
 * Need to look at speed, but speed is really good when running in release mode, totally playable at 60FPS.
 
+## Screenshots
 ![Screenshot of Zelda](/Screenshots/Zelda1_1.png)
 ![Screenshot of Zelda](/Screenshots/Zelda1_2.png)
 ![Screenshot of Zelda](/Screenshots/Zelda1_3.png)
